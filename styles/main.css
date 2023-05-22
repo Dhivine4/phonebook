@@ -1,6 +1,37 @@
-.form-cont{
-    background-color: gray;
-    width: 300px;
-    padding: 20px;
-    border-radius: 20px;
-}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-image: linear-gradient(to right, #934A5F, #57648C);
+    color: white;
+  }
+  body h1 {
+    color: black;
+  }
+  body .container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body .btn1 {
+    width: 80%;
+    background-color: #C2B4D6;
+    border: none;
+    padding: 15px 42px;
+    text-decoration: none;
+    border-radius: 36px;
+    cursor: pointer;
+  }
+  body .btn1:hover {
+    background-color: #E5E5E5;
+  }
+  body .shadow {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  body .shadow-text {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  }/*# sourceMappingURL=style.css.map */
