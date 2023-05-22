@@ -35,3 +35,17 @@
   body .shadow-text {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
   }/*# sourceMappingURL=style.css.map */
+
+  /* styles for add-contact page */
+  .form-input {
+    /* width: 80%; */
+    background-color: #C2B4D6;
+    border-radius: 36px;
+  }
+
+  .form-cont {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #57648C;
+  }
