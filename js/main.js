@@ -46,6 +46,6 @@ form.addEventListener('submit', function (add){
     contactArr.push(newContact);
     storeData(newContact);
     console.log(contactArr);
-    //form.reset();
+    form.reset();
 });
 
