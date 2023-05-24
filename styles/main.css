@@ -29,6 +29,11 @@
   body .btn1:hover {
     background-color: #E5E5E5;
   }
+
+  .btn1 a {
+    text-decoration: none;
+  }
+
   body .shadow {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
@@ -44,8 +49,12 @@
   }
 
   .form-cont {
-    width: 300px;
+    width: 350px;
     padding: 20px;
     border-radius: 10px;
-    background-color: #57648C;
+    background-color: rgba(255, 255, 255, 0.2); /* Whitish transparent background */
+  }
+  /* styles for contac-list page */
+  .contact-input {
+    width: 60%;
   }

@@ -6,21 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="../styles/main.css">
     <title>Phonebook</title>
 </head>
 <body>
 
-  <h1 class="h1 shadow-text">Phonebook</h1>
-    <div class="container">
-      
-        <div class="row">
-          <div class="col-12 text-center">
-            <a href="pages\add-contact.html"><button class="btn btn-light mb-5 btn1 shadow">New Contact</button></a>
-          </div>
-          <div class="col-12 text-center ">
-            <a href="pages\contact.html"><button class="btn btn-light btn1 shadow">View Contacts</button></a>
 
+    <div class="d-flex flex-column justify-content-center mt-5 border border-primary">
+        <h1 class="text-left ps-5">Contacts</h1>
+        <p class="ps-5"><a>create new contact</a></p>
+        <input type="email" class="form-control form-input text-center contact-input  ms-5" id="email">
+    </div>
+    <div class="container">
+    
+
+        <div id="contact-list"></div>
+    </div>
+        
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
