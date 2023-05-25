@@ -47,5 +47,6 @@ form.addEventListener('submit', function (add){
     storeData(newContact);
     console.log(contactArr);
     form.reset();
+    window.location.href='../pages/contact.html';
 });
 

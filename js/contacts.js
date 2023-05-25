@@ -14,23 +14,19 @@ const render = () => {
         const listItem = document.createElement('li');
         listItem.classList.add('list-group-item');
         listItem.textContent = `${contact._name} ${contact._phone}`;
-      
-        const index = contactDatabase.indexOf(contact);
-        if (index % 2 === 0) {
-          listItem.classList.add('even');
-        } else {
-          listItem.classList.add('odd');
-        }
-      
-        listItem.addEventListener('click', function() {
-          // Handle click event, e.g., navigate to a specific page
-          console.log('Clicked contact: ' + contact._name);
+        listItem.addEventListener( 'click', function(){
+            const selectedContact = encodeURIComponent(JSON.stringify(contact));
+            window.location.href = `../pages/view-contact.html?contact=${selectedContact}`;
+
         });
-      
-        contactList.appendChild(listItem);
-      }
+        
+      orderedList.appendChild(listItem);
     }
+    
+    contactList.appendChild(orderedList);
+  };
   
   render();
 
+  
   
